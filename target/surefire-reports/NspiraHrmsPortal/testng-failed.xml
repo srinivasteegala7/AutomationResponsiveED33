@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NspiraHrmsPortal]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.cucumber.utility.Listener"/>
+  </listeners>
+  <test name="LoginRunner">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.LoginRunner"/>
+    </classes>
+  </test> <!-- LoginRunner -->
+  <test name="CreateNewUserr">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.CreateNewUserRunner"/>
+    </classes>
+  </test> <!-- CreateNewUserr -->
+  <test name="UserManagementDropDwn">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.UserManagementDropDwnRunner"/>
+    </classes>
+  </test> <!-- UserManagementDropDwn -->
+  <test name="sreachUserRunner">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.sreachUserRunner"/>
+    </classes>
+  </test> <!-- sreachUserRunner -->
+</suite> <!-- Failed suite [NspiraHrmsPortal] -->
