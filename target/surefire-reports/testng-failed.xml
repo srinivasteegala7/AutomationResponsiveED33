@@ -29,4 +29,80 @@
       <class name="com.cucumber.TestRunner.sreachUserRunner"/>
     </classes>
   </test> <!-- sreachUserRunner -->
+  <test name="CreateNewUserr(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.sreachUserRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.sreachUserRunner -->
+      <class name="com.cucumber.TestRunner.UserManagementDropDwnRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserManagementDropDwnRunner -->
+      <class name="com.cucumber.TestRunner.CreateNewUserRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.CreateNewUserRunner -->
+      <class name="com.cucumber.TestRunner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.LoginRunner -->
+    </classes>
+  </test> <!-- CreateNewUserr(failed) -->
+  <test name="UserManagementDropDwn(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.sreachUserRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.sreachUserRunner -->
+      <class name="com.cucumber.TestRunner.UserManagementDropDwnRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserManagementDropDwnRunner -->
+      <class name="com.cucumber.TestRunner.CreateNewUserRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.CreateNewUserRunner -->
+      <class name="com.cucumber.TestRunner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.LoginRunner -->
+    </classes>
+  </test> <!-- UserManagementDropDwn(failed) -->
 </suite> <!-- Failed suite [NspiraHrmsPortal] -->

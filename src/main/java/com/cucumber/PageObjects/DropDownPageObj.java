@@ -27,10 +27,10 @@ public class DropDownPageObj {
 	@FindBy(xpath = "//span[text()='GO']")
 	private WebElement goButton;
 	
-	@FindBy(xpath = "//span[text()='Sapphirus School']")
+	@FindBy(xpath = "//span[text()='ResponsiveEd Institutions']")
 	private WebElement insSelect;
 	
-	@FindBy(xpath = "//span[text()='Administrator']")
+	@FindBy(xpath = "(//span[text()='Administrator'])[2]")
 	private WebElement RoleSelect;
 
 	@FindBy(xpath = "(//span[text()='All'])[2]")

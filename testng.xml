@@ -442,7 +442,7 @@
 	</test>-->
 	
 	
-	 <test name="LoginRunner">
+	<!-- <test name="LoginRunner">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.cucumber.TestRunner.LoginRunner" />	
@@ -471,6 +471,15 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.cucumber.TestRunner.sreachUserRunner" />	
+			
+		</classes>
+	</test>-->
+ 
+ 
+  <test name="UserManagementDropDwn">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserManagementDropDwnRunner" />	
 			
 		</classes>
 	</test>
