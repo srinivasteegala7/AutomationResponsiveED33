@@ -4,18 +4,18 @@
   <listeners>
     <listener class-name="com.cucumber.utility.Listener"/>
   </listeners>
-  <test thread-count="5" name="UserManagementDropDwn(failed)">
+  <test thread-count="5" name="CreateNewUserr(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.UserManagementDropDwnRunner">
+      <class name="com.cucumber.TestRunner.CreateNewUserRunner">
         <methods>
+          <include name="beforeclass"/>
           <include name="feature" invocation-numbers="0"/>
           <include name="setUpClass"/>
-          <include name="beforeclass"/>
           <include name="testDownClass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.UserManagementDropDwnRunner -->
+      </class> <!-- com.cucumber.TestRunner.CreateNewUserRunner -->
     </classes>
-  </test> <!-- UserManagementDropDwn(failed) -->
+  </test> <!-- CreateNewUserr(failed) -->
 </suite> <!-- Failed suite [NspiraHrmsPortal] -->

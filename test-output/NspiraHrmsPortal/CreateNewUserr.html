@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>CreateNewUserr</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 09 15:55:24 IST 2024</td>
+<td>Started on:</td><td>Sun Feb 11 18:03:27 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20749 ms)</td>
+<tr><td>Total time:</td><td>199 seconds (199285 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,127 +67,77 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.cucumber.TestRunner.CreateNewUserRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.CreateNewUserRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Administrator - Check the flow of Create New User<br/>
-<a href="#Output-299989139" onClick='toggleBox("Output-299989139", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.cucumber.TestRunner.LoginRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.LoginRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Login - Check the flow of login with valid credentials<br/>
+<a href="#Output-4573619" onClick='toggleBox("Output-4573619", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-299989139" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-299989139">
+<a href="#Output-4573619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4573619">
+About to begin executing following method : AbstractTestNGCucumberTests.feature<br/>
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.LoginRunner<br/>
+Test Method had the following parameters : nullLogin - Check the flow of login with valid credentials,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.cucumber.TestRunner.LoginRunner@514646ef</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.CreateNewUserRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.CreateNewUserRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Administrator - Check the flow of Create New User<br/>
+<a href="#Output-766258715" onClick='toggleBox("Output-766258715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-766258715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-766258715">
 About to begin executing following method : AbstractTestNGCucumberTests.feature<br/>
 Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
 Test Method resides in com.cucumber.TestRunner.CreateNewUserRunner<br/>
 Test Method had the following parameters : nullAdministrator - Check the flow of Create New User,<br/>
-Test Status: Failed<br/>
+Test Status: Pass<br/>
 </div>
 </td>
-<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;mat-mdc-select-min-line ng-tns-c1560157577-13 ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (1208, 45). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=121.0.6167.140)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f633d7387ecf8ad7332a4bf8cc7890e8, clickElement {id=9AB1959612F0925A900068D48D6746A2_element_2110}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\SAPPHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64031/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f633d7387ecf8ad7332a4bf8cc7890e8)] -&gt; xpath: //span[text()=&apos;Administrator&apos;]]
-Session ID: f633d7387ecf8ad7332a4bf8cc7890e8
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;mat-mdc-select-min-line ng-tns-c1560157577-13 ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (1208, 45). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=121.0.6167.140)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f633d7387ecf8ad7332a4bf8cc7890e8, clickElement {id=9AB1959612F0925A900068D48D6746A2_element_2110}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\SAPPHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64031/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f633d7387ecf8ad7332a4bf8cc7890e8)] -&gt; xpath: //span[text()=&apos;Administrator&apos;]]
-Session ID: f633d7387ecf8ad7332a4bf8cc7890e8
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at com.cucumber.PageObjects.CreateUserPageObj.ResponsiveEDcreateUser(CreateUserPageObj.java:193)
-	at com.cucumber.stepdefination.CreateNewUser.enter_data_to_all_fields(CreateNewUser.java:42)
-	at ✽.Then Enter data to all fields(src/test/resources/features/CreateNewUser.feature:9)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace299989139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace299989139'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;mat-mdc-select-min-line ng-tns-c1560157577-13 ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (1208, 45). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=121.0.6167.140)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f633d7387ecf8ad7332a4bf8cc7890e8, clickElement {id=9AB1959612F0925A900068D48D6746A2_element_2110}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\SAPPHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64031/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f633d7387ecf8ad7332a4bf8cc7890e8)] -&gt; xpath: //span[text()=&apos;Administrator&apos;]]
-Session ID: f633d7387ecf8ad7332a4bf8cc7890e8
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;mat-mdc-select-min-line ng-tns-c1560157577-13 ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (1208, 45). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=121.0.6167.140)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f633d7387ecf8ad7332a4bf8cc7890e8, clickElement {id=9AB1959612F0925A900068D48D6746A2_element_2110}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\SAPPHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64031/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f633d7387ecf8ad7332a4bf8cc7890e8)] -&gt; xpath: //span[text()=&apos;Administrator&apos;]]
-Session ID: f633d7387ecf8ad7332a4bf8cc7890e8
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at com.cucumber.PageObjects.CreateUserPageObj.ResponsiveEDcreateUser(CreateUserPageObj.java:193)
-	at com.cucumber.stepdefination.CreateNewUser.enter_data_to_all_fields(CreateNewUser.java:42)
-	at ✽.Then Enter data to all fields(src/test/resources/features/CreateNewUser.feature:9)
-</pre></div></td>
-<td>18</td>
-<td>com.cucumber.TestRunner.CreateNewUserRunner@3cce5371</td></tr>
+<td></td>
+<td>62</td>
+<td>com.cucumber.TestRunner.CreateNewUserRunner@1040be71</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.UserManagementDropDwnRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.UserManagementDropDwnRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Administrator - Check the flow of all User Management Drop Down Handle<br/>
+<a href="#Output-1533854532" onClick='toggleBox("Output-1533854532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1533854532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1533854532">
+About to begin executing following method : AbstractTestNGCucumberTests.feature<br/>
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.UserManagementDropDwnRunner<br/>
+Test Method had the following parameters : nullAdministrator - Check the flow of all User Management Drop Down Handle,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>52</td>
+<td>com.cucumber.TestRunner.UserManagementDropDwnRunner@433defed</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.sreachUserRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.sreachUserRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Administrator - Search User<br/>
+<a href="#Output-1321368652" onClick='toggleBox("Output-1321368652", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1321368652" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1321368652">
+About to begin executing following method : AbstractTestNGCucumberTests.feature<br/>
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.sreachUserRunner<br/>
+Test Method had the following parameters : nullAdministrator - Search User,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>com.cucumber.TestRunner.sreachUserRunner@7fd50002</td></tr>
 </table><p>
 </body>
 </html>

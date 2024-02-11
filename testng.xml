@@ -448,26 +448,29 @@
 			<class name="com.cucumber.TestRunner.LoginRunner" />	
 			
 		</classes>
-	</test>
+	</test>-->
 	
 	<test name="CreateNewUserr">
 		<parameter name="browser" value="chrome" />
 		<classes>
+			<class name="com.cucumber.TestRunner.LoginRunner" />
 			<class name="com.cucumber.TestRunner.CreateNewUserRunner" />	
+			<class name="com.cucumber.TestRunner.UserManagementDropDwnRunner" />
+			<class name="com.cucumber.TestRunner.sreachUserRunner" />
 			
 		</classes>
 	</test>
 	
-   <test name="UserManagementDropDwn">
+   <!--<test name="UserManagementDropDwn">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.cucumber.TestRunner.UserManagementDropDwnRunner" />	
 			
 		</classes>
-	</test>
+	</test>-->
  
  
-  <test name="sreachUserRunner">
+  <!--<test name="sreachUserRunner">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.cucumber.TestRunner.sreachUserRunner" />	
@@ -476,13 +479,13 @@
 	</test>-->
  
  
-  <test name="UserManagementDropDwn">
+  <!--<test name="UserManagementDropDwn">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.cucumber.TestRunner.UserManagementDropDwnRunner" />	
 			
 		</classes>
-	</test>
+	</test>-->
  
 </suite>
 
